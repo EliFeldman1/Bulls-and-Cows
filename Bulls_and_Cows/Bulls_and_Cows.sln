@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulls_and_Cows", "ConsoleApp3\Bulls_and_Cows.csproj", "{5F6BCE50-249F-4F04-A72D-EBB32445AC9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE2DEB0C-E4E7-41E9-B52A-E72728613922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F6BCE50-249F-4F04-A72D-EBB32445AC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6BCE50-249F-4F04-A72D-EBB32445AC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6BCE50-249F-4F04-A72D-EBB32445AC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6BCE50-249F-4F04-A72D-EBB32445AC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D0F9D07-713B-4BFF-AC3D-74F15CF28EB1}
+	EndGlobalSection
+EndGlobal
