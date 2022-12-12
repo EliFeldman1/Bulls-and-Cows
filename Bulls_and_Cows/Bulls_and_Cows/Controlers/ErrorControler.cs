@@ -32,6 +32,13 @@ namespace Bulls_and_Cows
                 return errorsModel;
             }
 
+            if (ErrorsClass.isTwoNumbersAreFollow(Number) == true) { errorsModel.Posibile = true; }
+            else
+            {
+                errorsModel.Posibile = false;
+                errorsModel.MessageError = " Error: Two consecutive digits cannot be the same  ";
+                return errorsModel;
+            }
             return errorsModel;
 
         }
