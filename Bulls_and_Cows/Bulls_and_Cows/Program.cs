@@ -22,7 +22,7 @@ namespace Bulls_and_Cows
                 
                 Console.WriteLine("Enter a number of 4 digits ");
 
-                int input = Convert.ToInt32(Console.ReadLine());
+                string input = Console.ReadLine();
                 errorsModel= errorControler.ErrorsModel(input);
                 int H = 5;
                 //bool isIt4Digits = errors.isit4digits(input);

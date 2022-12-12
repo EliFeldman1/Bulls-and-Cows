@@ -9,18 +9,31 @@ namespace Bulls_and_Cows
     internal class ErrorControler
     {
         ErrorsClass ErrorsClass = new ErrorsClass();
-        public ErrorsModel ErrorsModel(int Number)
+        public ErrorsModel ErrorsModel(string Number)
         {
             ErrorsModel errorsModel = new ErrorsModel();
 
             // Here The numbers of the input is testd
-            if (ErrorsClass.isit4digits(Number) == true) { errorsModel.Posibile = true;}
+            //bool flag = true;
+            
+            if (ErrorsClass.isit4digits(Number) == true) { errorsModel.Posibile = true; }
             else
             {
                 errorsModel.Posibile = false;
                 errorsModel.MessageError = " Error: Enter exactly 4 numbers ";
+                return errorsModel;
             }
+
+            if (ErrorsClass.isTheFirstDigit0(Number) == true) { errorsModel.Posibile = true; }
+            else
+            {
+                errorsModel.Posibile = false;
+                errorsModel.MessageError = " Error: The first digit most not be '0' ";
+                return errorsModel;
+            }
+
             return errorsModel;
+
         }
     }
 }

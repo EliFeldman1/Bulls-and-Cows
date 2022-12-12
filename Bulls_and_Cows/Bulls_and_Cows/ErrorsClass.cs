@@ -11,21 +11,34 @@ namespace Bulls_and_Cows
 
         
 
-            public bool isit4digits(int Number)
+            public bool isit4digits(string Number)
             {
-            bool Posibile;
-           string number=Convert.ToString(Number);
-            if (number.Length == 4)
+            //bool Posibile;
+         //  string number=Convert.ToString(Number);
+            if (Number.Length == 4)
                 {
-                    Posibile = true;
+                return  true;
                 }
                 else
                 {
-               Posibile = false;
+                return false;
     
             }
-                return Posibile;
+                ;
             }
-        
+        public bool isTheFirstDigit0(string Number)
+        {
+            //bool Posibile;
+           // string number = Convert.ToString(Number);
+            if (Number.StartsWith("0")== true)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+             
+        }
     }
 }
