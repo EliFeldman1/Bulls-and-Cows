@@ -6,3 +6,11 @@ C:\Users\97252\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\Bulls_and_Cows.csp
 C:\Users\97252\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\Bulls_and_Cows.csproj.CoreCompileInputs.cache
 C:\Users\97252\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
 C:\Users\97252\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\bin\Debug\ConsoleApp3.exe.config
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\bin\Debug\ConsoleApp3.exe
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\bin\Debug\ConsoleApp3.pdb
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\obj\Debug\Bulls_and_Cows.csproj.AssemblyReference.cache
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\obj\Debug\Bulls_and_Cows.csproj.SuggestedBindingRedirects.cache
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\obj\Debug\Bulls_and_Cows.csproj.CoreCompileInputs.cache
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\obj\Debug\ConsoleApp3.exe
+C:\Users\97252\אלי\Code\Bulls-and-Cows\Bulls_and_Cows\Bulls_and_Cows\obj\Debug\ConsoleApp3.pdb

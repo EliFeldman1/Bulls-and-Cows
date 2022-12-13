@@ -18,8 +18,10 @@ namespace Bulls_and_Cows
             ErrorControler errorControler = new ErrorControler();
             ErrorsModel errorsModel = new ErrorsModel();
             ChackModel chackModel = new ChackModel();
-            ChackClass chackClass= new ChackClass();
-            string secretNumber = "1234";
+            ChackClass chackClass = new ChackClass();
+            CreateRandNumControler createRandNumControler = new CreateRandNumControler();
+
+            string secretNumber = createRandNumControler.SecretNum();
             int Guess = 0;
             while (Guess < 12)
             {
@@ -31,7 +33,8 @@ namespace Bulls_and_Cows
                 if (errorsModel.Posibile == true)
                 {
                     chackModel = chackClass.chackModel(inputNumber, secretNumber);
-                    Console.WriteLine("You Have "+chackModel.cows +" Cows and "+ chackModel.bulls +" Bulls");
+                    Console.WriteLine("You Have " + chackModel.cows + " Cows and " + chackModel.bulls + " Bulls");
+                    Guess++;
                 }
                 else
                 {

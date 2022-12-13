@@ -38,7 +38,7 @@ namespace Bulls_and_Cows
             }
 
         }
-        public bool isTwoNumbersAreFollow(string Number)
+        public bool isTwoNumbersAreTheSame(string Number)
         {
             // This function checks whether the input has two digits that are equals
             for (int i = 0; i < 3; i++)
