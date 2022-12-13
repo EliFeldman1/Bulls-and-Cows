@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ConsoleApp3;
+using ConsoleApp3.Model;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,23 +16,31 @@ namespace Bulls_and_Cows
         {
             // ErrorsClass errors = new ErrorsClass();
             ErrorControler errorControler = new ErrorControler();
-            ErrorsModel errorsModel= new ErrorsModel(); 
-
-            bool Right = false;
-            while (Right == false)
+            ErrorsModel errorsModel = new ErrorsModel();
+            ChackModel chackModel = new ChackModel();
+            ChackClass chackClass= new ChackClass();
+            string secretNumber = "1234";
+            int Guess = 0;
+            while (Guess < 12)
             {
                 
                 Console.WriteLine("Enter a number of 4 digits ");
 
-                string input = Console.ReadLine();
-                errorsModel= errorControler.ErrorsModel(input);
-                int H = 5;
+                string inputNumber = Console.ReadLine();
+                errorsModel = errorControler.ErrorsModel(inputNumber);
+                if (errorsModel.Posibile == true)
+                {
+                    chackModel = chackClass.chackModel(inputNumber, secretNumber);
+                    Console.WriteLine("You Have "+chackModel.cows +" Cows and "+ chackModel.bulls +" Bulls");
+                }
+                else
+                {
+                    Console.WriteLine(errorsModel.MessageError);
+                }
                 //bool isIt4Digits = errors.isit4digits(input);
             }
 
-            var m = Console.ReadLine();
-            Console.WriteLine(m);
-            var h = Console.ReadLine();
+
         }
     }
 }

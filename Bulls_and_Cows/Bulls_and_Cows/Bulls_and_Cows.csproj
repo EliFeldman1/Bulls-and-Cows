@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChackClass.cs" />
     <Compile Include="Controlers\ErrorControler.cs" />
     <Compile Include="ErrorsClass.cs" />
+    <Compile Include="Model\ChackModel.cs" />
     <Compile Include="Model\ErrorsModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

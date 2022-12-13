@@ -20,7 +20,7 @@ namespace Bulls_and_Cows
             else
             {
                 errorsModel.Posibile = false;
-                errorsModel.MessageError = " Error: Enter exactly 4 numbers ";
+                errorsModel.MessageError = " Error !: Enter exactly 4 numbers ";
                 return errorsModel;
             }
 
@@ -28,7 +28,7 @@ namespace Bulls_and_Cows
             else
             {
                 errorsModel.Posibile = false;
-                errorsModel.MessageError = " Error: The first digit most not be '0' ";
+                errorsModel.MessageError = " Error !: The first digit most not be '0' ";
                 return errorsModel;
             }
 
@@ -36,7 +36,7 @@ namespace Bulls_and_Cows
             else
             {
                 errorsModel.Posibile = false;
-                errorsModel.MessageError = " Error: Two consecutive digits cannot be the same  ";
+                errorsModel.MessageError = " Error !: Two digits cannot be the same  ";
                 return errorsModel;
             }
             return errorsModel;

@@ -23,7 +23,7 @@ namespace Bulls_and_Cows
                 return false;
     
             }
-                ;
+                
         }
         public bool isTheFirstDigit0(string Number)
         {
@@ -40,17 +40,21 @@ namespace Bulls_and_Cows
         }
         public bool isTwoNumbersAreFollow(string Number)
         {
-            // This function checks whether the input has two digits  consecutive
+            // This function checks whether the input has two digits that are equals
             for (int i = 0; i < 3; i++)
             {
-                if (Number[i] == Number[i + 1]) 
-                { 
-                    return false;
+                for (int ii = 1+i; ii < 4; ii++)
+                {
+ 
+                        if (Number[i] == Number[ii])
+                        {
+                            return false;
+                        }
+                    
                 }
+  
             }
                 return true;
-            
-
         }
     }
 }
