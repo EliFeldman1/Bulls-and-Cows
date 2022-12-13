@@ -8,9 +8,6 @@ namespace Bulls_and_Cows
 {
     internal class ErrorsClass
     {
-
-        
-
             public bool isit4digits(string Number)
             {
             // This function checks if the input has 4 digits

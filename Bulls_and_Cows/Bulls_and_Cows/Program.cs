@@ -14,7 +14,7 @@ namespace Bulls_and_Cows
     {
         static void Main(string[] args)
         {
-            // ErrorsClass errors = new ErrorsClass();
+           
             ErrorControler errorControler = new ErrorControler();
             ErrorsModel errorsModel = new ErrorsModel();
             ChackModel chackModel = new ChackModel();
@@ -29,6 +29,7 @@ namespace Bulls_and_Cows
                 Console.WriteLine("Enter a number of 4 digits ");
 
                 string inputNumber = Console.ReadLine();
+                //Checking whether the entered number meets the conditions.
                 errorsModel = errorControler.ErrorsModel(inputNumber);
                 if (errorsModel.Posibile == true)
                 {

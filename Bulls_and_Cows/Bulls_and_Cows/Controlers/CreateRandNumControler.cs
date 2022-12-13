@@ -14,10 +14,12 @@ namespace Bulls_and_Cows
             CreateRandNumber createRandNumber = new CreateRandNumber();
             SecretNumberMosel SecretNumberMosel = new SecretNumberMosel();
             bool flag = false;
-            while (flag == false) { 
-           
+            while (flag == false)
+            {
+
                 SecretNumberMosel.Number = CreateRandNumber.GetRandomNumber();
-                flag=isTwoNumbersAreTheSame(SecretNumberMosel.Number);
+                //Checking whether the rand number meets the conditions.
+                flag = isTwoNumbersAreTheSame(SecretNumberMosel.Number);
             }
             return SecretNumberMosel.Number;
         }
