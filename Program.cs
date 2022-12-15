@@ -1,6 +1,4 @@
-﻿using ConsoleApp3;
-using ConsoleApp3.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
